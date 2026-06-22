@@ -1,4 +1,9 @@
 # Salesforce Pipeline Hygiene Dashboard
+## Project Summary
+
+Built a Salesforce pipeline hygiene workflow to help Sales Ops identify at-risk opportunities, forecast cleanup issues, and deal-review priorities before an executive forecast call.
+
+This project includes custom Opportunity fields, filtered list views, Salesforce reports, and a dashboard designed to turn messy CRM data into a cleaner leadership review process.
 
 ## The Friday Forecast Fire Drill
 
@@ -49,6 +54,15 @@ The workflow needed to support:
 * Reports for leadership-level analysis
 * A dashboard that summarizes the biggest pipeline hygiene issues
 
+
+## Key Results
+
+- Flagged **5 opportunities** for forecast review
+- Identified **$1.44M in forecast cleanup pipeline**
+- Surfaced **4 at-risk opportunities** totaling **$1.015M**
+- Highlighted forecast risk tied to overdue close dates, stale activity, high-value early-stage deals, and forecast category mismatch
+- Created a repeatable Sales Ops workflow for reviewing pipeline hygiene before executive forecast calls
+
 ---
 
 ## Salesforce Configuration
@@ -57,20 +71,11 @@ To make pipeline risk visible inside Salesforce, I created custom Opportunity fi
 
 Custom fields included:
 
-* **Pipeline Risk Status**
-  Used to classify an opportunity as Healthy, Needs Review, or At Risk.
-
-* **Next Step Quality**
-  Used to identify whether the next step is clear, weak, missing, or needs an update.
-
-* **Risk Reason**
-  Used to explain why the opportunity needs attention.
-
-* **Forecast Review Needed**
-  Checkbox used to flag opportunities that should be reviewed before the forecast call.
-
-* **Sales Ops Notes**
-  Long text field used to document cleanup notes, forecast concerns, and manager follow-up actions.
+- **Pipeline Risk Status:** Classifies an opportunity as Healthy, Needs Review, or At Risk.
+- **Next Step Quality:** Identifies whether the next step is clear, weak, missing, or needs an update.
+- **Risk Reason:** Explains why the opportunity needs attention.
+- **Forecast Review Needed:** Flags opportunities that should be reviewed before the forecast call.
+- **Sales Ops Notes:** Documents cleanup notes, forecast concerns, and manager follow-up actions.
 
 ---
 
