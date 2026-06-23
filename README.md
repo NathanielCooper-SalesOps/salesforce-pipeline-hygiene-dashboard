@@ -1,9 +1,9 @@
 # Salesforce Pipeline Hygiene Dashboard
 ## Project Summary
 
-Built a Salesforce pipeline hygiene workflow to help Sales Ops identify at-risk opportunities, forecast cleanup issues, and deal-review priorities before an executive forecast call.
+A Salesforce Sales Ops workflow built around one real question: what needs attention before the forecast meeting?
 
-This project includes custom Opportunity fields, filtered list views, Salesforce reports, and a dashboard designed to turn messy CRM data into a cleaner leadership review process.
+I created custom Opportunity fields, pipeline hygiene views, reports, and a dashboard to identify at-risk deals, stale opportunities, forecast cleanup issues, and deal-review priorities before leadership asks, “Why did the number change?”
 
 ## The Friday Forecast Fire Drill
 
