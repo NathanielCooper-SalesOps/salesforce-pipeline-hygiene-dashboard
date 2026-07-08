@@ -1,7 +1,7 @@
 # Salesforce Pipeline Hygiene Dashboard
 ## Project Summary
 
-A Salesforceworkflow built around one real question: what needs attention before the forecast meeting?
+A Salesforce workflow built around one real question: what needs attention before the forecast meeting?
 
 I created custom Opportunity fields, pipeline hygiene views, reports, and a dashboard to identify at-risk deals, stale opportunities, forecast cleanup issues, and deal-review priorities before leadership asks, “Why did the number change?”
 
